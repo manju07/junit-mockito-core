@@ -100,7 +100,6 @@ public class App {
         long endTime = System.currentTimeMillis();
         System.out.println("Over all time taken = " + ((endTime - startTime) / 1000) + " seconds");
         System.out.println("hello");
-        System.out.println("hello 123");
         System.out.println();
     }
 
