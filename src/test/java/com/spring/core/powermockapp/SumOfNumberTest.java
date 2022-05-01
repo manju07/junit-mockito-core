@@ -3,6 +3,9 @@ package com.spring.core.powermockapp;
 import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.when;
 
+import com.spring.core.practice.mockito.powermockapp.Depedency;
+import com.spring.core.practice.mockito.powermockapp.SumOfNumbers;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;

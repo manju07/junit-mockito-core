@@ -1,4 +1,4 @@
-package com.spring.core;
+package com.spring.core.practice.mockito;
 
 import org.springframework.stereotype.Component;
 

@@ -1,4 +1,4 @@
-package com.spring.core.model;
+package com.spring.core.practice.mockito.model;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;

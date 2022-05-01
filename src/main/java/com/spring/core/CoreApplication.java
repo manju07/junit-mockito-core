@@ -1,14 +1,5 @@
 package com.spring.core;
 
-import com.spring.core.config.Config;
-import com.spring.core.model.Vehicle;
-
-import org.apache.catalina.core.ApplicationContext;
-import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.ConfigurableApplicationContext;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 // @SpringBootApplication

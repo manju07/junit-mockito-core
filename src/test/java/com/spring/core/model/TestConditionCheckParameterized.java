@@ -4,7 +4,7 @@ import static org.junit.Assert.assertEquals;
 
 import java.util.List;
 
-import com.spring.core.ConditionCheck;
+import com.spring.core.practice.mockito.ConditionCheck;
 
 import org.assertj.core.util.Arrays;
 import org.junit.Before;

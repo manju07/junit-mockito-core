@@ -1,4 +1,4 @@
-package com.spring.core.powermockapp;
+package com.spring.core.practice.mockito.powermockapp;
 
 /**
  * Utility

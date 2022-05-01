@@ -9,7 +9,7 @@ import java.util.Arrays;
 
 import javax.validation.constraints.Null;
 
-import com.spring.core.ConditionCheck;
+import com.spring.core.practice.mockito.ConditionCheck;
 
 import org.junit.After;
 import org.junit.AfterClass;

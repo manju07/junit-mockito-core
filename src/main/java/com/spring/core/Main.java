@@ -1,6 +1,6 @@
 package com.spring.core;
 
-import com.spring.core.model.Vehicle;
+import com.spring.core.practice.mockito.model.Vehicle;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

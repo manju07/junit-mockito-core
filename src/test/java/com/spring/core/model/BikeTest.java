@@ -6,6 +6,9 @@ import static org.junit.Assert.assertEquals;
 
 import java.util.Arrays;
 
+import com.spring.core.practice.mockito.model.Bike;
+import com.spring.core.practice.mockito.model.Vehicle;
+
 import org.junit.Test;
 import org.mockito.InjectMocks;
 import org.springframework.beans.factory.annotation.Autowired;
