@@ -7,9 +7,7 @@ import static org.junit.Assert.assertTrue;
 
 import java.util.Arrays;
 
-import javax.validation.constraints.Null;
-
-import com.spring.core.practice.mockito.ConditionCheck;
+import com.spring.core.mockito.ConditionCheck;
 
 import org.junit.After;
 import org.junit.AfterClass;
@@ -78,11 +76,11 @@ public class TestConditionCheck {
 
     @Test(timeout = 1000)
     public void testPerformanceTest() {
-        int arr[] = {1, 2, 5, 10, 4, 6, 0};
+        int arr[] = { 1, 2, 5, 10, 4, 6, 0 };
         for (int i = 0; i < 10000000; i++) {
             arr[0] = arr[0] + 1;
             arr[arr.length - 1] = i;
-            arr[arr.length/2 - 1] = i - 2;
+            arr[arr.length / 2 - 1] = i - 2;
             Arrays.sort(arr);
         }
     }

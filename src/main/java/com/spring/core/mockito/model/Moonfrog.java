@@ -1,4 +1,4 @@
-package com.spring.core.practice.mockito.model;
+package com.spring.core.mockito.model;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,20 +1,16 @@
 package com.spring.core.mockapp;
 
-import static org.junit.Assert.assertEquals;
+import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.when;
-import static org.mockito.ArgumentMatchers.isA;
 import static org.mockito.BDDMockito.given;
-import static org.mockito.BDDMockito.willReturn;
+import static org.mockito.Mockito.mock;
 
 import java.util.Arrays;
 import java.util.List;
 
-import com.spring.core.practice.mockito.mockapp.TodoBusinessImpl;
-import com.spring.core.practice.mockito.mockapp.TodoService;
+import com.spring.core.mockito.mockapp.TodoBusinessImpl;
+import com.spring.core.mockito.mockapp.TodoService;
 
-import static org.hamcrest.CoreMatchers.is;
 import org.junit.Before;
 import org.junit.Test;
 

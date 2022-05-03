@@ -1,4 +1,4 @@
-package com.spring.core.practice.mockito.powermockapp;
+package com.spring.core.mockito.powermockapp;
 
 import org.springframework.stereotype.Component;
 

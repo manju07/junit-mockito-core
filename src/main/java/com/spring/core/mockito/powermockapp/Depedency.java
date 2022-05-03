@@ -1,4 +1,4 @@
-package com.spring.core.practice.mockito.powermockapp;
+package com.spring.core.mockito.powermockapp;
 
 public interface Depedency {
   public int[] getNumbers();  

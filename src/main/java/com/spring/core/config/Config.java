@@ -1,7 +1,7 @@
-package com.spring.core.practice.config;
+package com.spring.core.config;
 
-import com.spring.core.practice.mockito.model.Car;
-import com.spring.core.practice.mockito.model.Vehicle;
+import com.spring.core.mockito.model.Car;
+import com.spring.core.mockito.model.Vehicle;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

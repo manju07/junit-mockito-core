@@ -3,8 +3,8 @@ package com.spring.core.powermockapp;
 import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.when;
 
-import com.spring.core.practice.mockito.powermockapp.Depedency;
-import com.spring.core.practice.mockito.powermockapp.SumOfNumbers;
+import com.spring.core.mockito.powermockapp.Depedency;
+import com.spring.core.mockito.powermockapp.SumOfNumbers;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

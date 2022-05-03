@@ -1,4 +1,4 @@
-package com.spring.core.practice.mockito.mockapp;
+package com.spring.core.mockito.mockapp;
 
 import java.util.ArrayList;
 import java.util.List;

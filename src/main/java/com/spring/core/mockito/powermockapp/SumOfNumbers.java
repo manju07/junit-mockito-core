@@ -1,4 +1,4 @@
-package com.spring.core.practice.mockito.powermockapp;
+package com.spring.core.mockito.powermockapp;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

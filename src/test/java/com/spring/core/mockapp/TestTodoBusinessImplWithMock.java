@@ -1,28 +1,26 @@
 package com.spring.core.mockapp;
 
+import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThat;
+import static org.mockito.BDDMockito.given;
+import static org.mockito.BDDMockito.then;
 import static org.mockito.Mockito.atLeast;
-import static org.mockito.Mockito.atLeastOnce;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.never;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
-import static org.hamcrest.CoreMatchers.is;
 
 import java.util.Arrays;
 import java.util.List;
 
-import com.spring.core.practice.mockito.mockapp.TodoBusinessImpl;
-import com.spring.core.practice.mockito.mockapp.TodoService;
+import com.spring.core.mockito.mockapp.TodoBusinessImpl;
+import com.spring.core.mockito.mockapp.TodoService;
 
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.ArgumentCaptor;
-
-import static org.mockito.BDDMockito.given;
-import static org.mockito.BDDMockito.then;
 
 public class TestTodoBusinessImplWithMock {
 

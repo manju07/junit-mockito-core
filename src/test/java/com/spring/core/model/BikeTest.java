@@ -4,10 +4,8 @@ package com.spring.core.model;
 
 import static org.junit.Assert.assertEquals;
 
-import java.util.Arrays;
-
-import com.spring.core.practice.mockito.model.Bike;
-import com.spring.core.practice.mockito.model.Vehicle;
+import com.spring.core.mockito.model.Bike;
+import com.spring.core.mockito.model.Vehicle;
 
 import org.junit.Test;
 import org.mockito.InjectMocks;
